@@ -34,10 +34,14 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 Once you've tested your changes locally, use the following commands to push to the website domain:
 
-#### 'git add .' to stage your changes
-#### 'git commit -m <message>' to commit
-#### 'git push' to push code to main branch
-#### 'npm run deploy' to make changes visible in gh-pages and the actual website
+#### 'git add .' 
+to stage your changes
+#### 'git commit -m <message>' 
+to commit
+#### 'git push' 
+to push code to main branch
+#### 'npm run deploy' 
+to make changes visible in gh-pages and the actual website
 
 
 ## Learn more
