@@ -4,7 +4,7 @@
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -14,12 +14,12 @@ Use this before pushing to github to make sure there are no errors!!!
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+#### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+#### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -34,10 +34,10 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 Once you've tested your changes locally, use the following commands to push to the website domain:
 
-'git add .' to stage your changes
-'git commit -m <message>' to commit
-'git push' to push code to main branch
-'npm run deploy' to make changes visible in gh-pages and the actual website
+#### 'git add .' to stage your changes
+#### 'git commit -m <message>' to commit
+#### 'git push' to push code to main branch
+#### 'npm run deploy' to make changes visible in gh-pages and the actual website
 
 
 ## Learn more
