@@ -1,7 +1,7 @@
 {
   "name": "3m-innovation",
   "version": "0.1.0",
-  "homepage": "https://ranglall.github.io/3m-innovation",
+  "homepage": "https://www.ranglall.com",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
