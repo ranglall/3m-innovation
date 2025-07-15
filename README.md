@@ -9,7 +9,7 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Use this before pushing to github to make sure there are no errors.
+Use this before pushing to github to make sure there are no errors!!!
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
