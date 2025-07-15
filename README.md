@@ -8,7 +8,7 @@ In the project directory, you can run:
 Always run this first so you have the most up to date files to edit. Do it every time something new is pushed.
 
 #### VS Code
-Use Visual Studio to edit - make sure files are in appriopiate folders
+Use Visual Studio to edit - make sure files are in appropriate folders
 
 #### `npm start`
 Runs the app in the development mode.\
