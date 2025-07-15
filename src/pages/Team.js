@@ -8,7 +8,7 @@ import dominicHeadshot from "../images/dominic_headshot.jpg";
 
 const teamMembers = [
   {
-    name: "Martin Grinnel",
+    name: "Martin Grinnell",
     title: "Finance Intern",
     description: "School",
     img: "https://source.unsplash.com/300x300/?portrait,woman",
@@ -30,7 +30,7 @@ const teamMembers = [
   },
   {
     name: "Dominic Debo",
-    title: "CBG Fiels Sales Intern",
+    title: "CBG Field Sales Intern",
     description: "Senior at the University of Toledo pursuing a B.B.A in Professional Sales",
     img: dominicHeadshot,
     linkedin: "https://linkedin.com/in/dominic-debo"
