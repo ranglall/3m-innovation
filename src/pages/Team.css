@@ -1,6 +1,10 @@
+.page-content {
+  padding-top: 70px; /* default for all pages */
+}
+
 .team-container {
   text-align: center;
-  padding: 50px 20px;
+  padding: 10px;
   font-family: 'Arial', sans-serif;
 }
 

@@ -1,17 +1,129 @@
+.page-content {
+  padding-top: 70px; /* default for all pages */
+}
+
+/* Base navbar */
 .navbar {
-  background-color: #2c3e50;
-  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
   display: flex;
-  justify-content: center;
-  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px clamp(1rem, 4vw, 50px); /* Slimmer vertical padding */
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  transition: all 0.3s ease;
 }
 
-.navbar a {
-  color: white;
+/* Shrink effect on scroll */
+.navbar-scrolled {
+  padding: 5px clamp(1rem, 4vw, 40px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Logo */
+.navbar-logo-img {
+  height: 40px; 
+  transition: height 0.3s ease;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
   text-decoration: none;
-  font-size: 1.2rem;
 }
 
-.navbar a:hover {
-  text-decoration: underline;
+.navbar-logo-text {
+  font-size: 1.8rem;      
+  font-weight: bold;    
+  color: black;
+  margin-left: 10px;      
+  transition: font-size 0.3s ease;
+}
+
+.navbar-scrolled .navbar-logo-text {
+  font-size: 1.5rem;      /* 👈 Smaller on scroll */
+}
+
+.navbar-scrolled .navbar-logo-img {
+  height: 32px; /* Smaller when scrolled */
+}
+
+/* Navbar links (desktop) */
+.navbar-links {
+  display: flex;
+  gap: clamp(1rem, 2vw, 30px);
+  align-items: center;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: red;
+}
+
+.navbar-links .active {
+  color: red;
+  font-weight: 600;
+}
+
+/* Hamburger menu (mobile) */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: black;
+  transition: all 0.3s ease;
+}
+
+/* Hamburger animation */
+.hamburger.open span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Mobile links */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .navbar-links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+
+  .navbar-links.mobile-open {
+    max-height: 200px; /* reveal the menu */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
 }

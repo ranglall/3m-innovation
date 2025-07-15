@@ -13,9 +13,9 @@ function App() {
   <div className="page-content">
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/AirQuality" element={<AirQuality />} />
-      <Route path="/OurStory" element={<OurStory />} />
-      <Route path="/Team" element={<Team />} />
+        <Route path="/air-quality" element={<AirQuality />} />
+        <Route path="/our-story" element={<OurStory />} />
+        <Route path="/team" element={<Team />} />
     </Routes>
   </div>
 </Router>
