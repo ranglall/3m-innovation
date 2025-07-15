@@ -45,7 +45,7 @@
 }
 
 .navbar-scrolled .navbar-logo-text {
-  font-size: 1.5rem;      /* 👈 Smaller on scroll */
+  font-size: 1.5rem;   
 }
 
 .navbar-scrolled .navbar-logo-img {
@@ -116,14 +116,15 @@
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    padding: 15px 0;
+    padding: 0;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease;
+    transition: max-height 0.3s ease, padding 0.3s ease;
   }
 
-  .navbar-links.mobile-open {
-    max-height: 200px; /* reveal the menu */
+    .navbar-links.mobile-open {
+    max-height: 300px;
+    padding: 10px 0;   /* Add padding ONLY when open */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
+    }
 }
