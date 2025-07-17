@@ -1,0 +1,258 @@
+/* Main container for the AirQuality page */
+.airquality-container {
+  background: linear-gradient(to bottom, #a2d2ff, #ffffff);
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+/* Page title */
+.airquality-container h1 {
+  color: #0077b6;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+/* Form card */
+.form-card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  padding: 25px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+}
+
+/* Make form wider on desktop */
+@media (min-width: 992px) {
+  .form-card {
+    max-width: 700px;
+    padding: 40px; 
+  }
+}
+
+/* Labels for inputs */
+.form-card label {
+  display: block;
+  text-align: left;
+  margin: 10px 0 5px;
+  font-weight: 500;
+  color: #023e8a;
+}
+
+/* Adjust input and select width */
+.form-card input,
+.form-card select,
+.form-card button {
+  width: 95%; 
+  max-width: 600px;
+  margin: 5px auto;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  display: block;
+  transition: border-color 0.3s ease;
+}
+
+.form-card input:focus,
+.form-card select:focus {
+  border-color: #0077b6;
+  outline: none;
+}
+
+/* Button styling */
+.form-card button {
+  background-color: #0077b6;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.form-card button:hover {
+  background-color: #023e8a;
+  transform: scale(1.05);
+}
+
+/* Suggestions dropdown */
+.suggestions {
+  list-style: none;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-height: 150px;
+  overflow-y: auto;
+  margin: 0 auto;
+  padding: 0;
+  width: 95%;
+  max-width: 600px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  z-index: 10;
+}
+
+.suggestions li {
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.suggestions li:hover {
+  background-color: #f0f0f0;
+}
+
+/* Info cards for weather and air quality */
+.info-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  padding: 25px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+}
+
+/* Make info-cards match wider form on desktop */
+@media (min-width: 992px) {
+  .info-card {
+    max-width: 700px;
+    padding: 35px;
+  }
+}
+
+.info-card h2,
+.info-card h3 {
+  color: #0077b6;
+  margin-bottom: 10px;
+  font-size: 1.2rem; /* slightly smaller than default */
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.info-card p {
+  font-size: 1.1rem;
+  margin: 8px 0;
+}
+
+/* Link to Amazon */
+.info-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #ffffff;
+  background-color: #0077b6;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.info-card a:hover {
+  background-color: #023e8a;
+}
+
+/* Responsive tweaks for smaller screens */
+@media (max-width: 600px) {
+  .airquality-container h1 {
+    font-size: 2rem;
+  }
+
+  .form-card,
+  .info-card {
+    padding: 15px;
+  }
+
+  .form-card input,
+  .form-card select,
+  .form-card button {
+    font-size: 0.95rem;
+  }
+
+  .info-card p {
+    font-size: 1rem;
+  }
+}
+
+.aq-group {
+  font-weight: 600;
+  margin-left: 8px;
+  border-radius: 5px;
+  padding: 2px 6px;
+  font-size: 0.95rem;
+}
+
+/* Change color of pollutant based on severity*/
+.aq-good {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.aq-moderate {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.aq-unhealthy-sensitive {
+  background-color: #ffeeba;
+  color: #8a6d3b;
+}
+
+.aq-unhealthy {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.aq-very-unhealthy {
+  background-color: #d6d8d9;
+  color: #383d41;
+}
+
+.aq-hazardous {
+  background-color: #f5c6cb;
+  color: #721c24;
+}
+
+.aq-na {
+  background-color: #e2e3e5;
+  color: #6c757d;
+}
+
+/* Guage */
+.gauge-container {
+  width: 100%;
+  max-width: 700px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.gauge-container svg text {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 30px;
+  font-weight: 700;
+}
