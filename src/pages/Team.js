@@ -5,6 +5,7 @@ import { FaLinkedin } from "react-icons/fa"; // npm install react-icons
 //import headshots
 import breannaHeadshot from "../images/breanna_headshot.jpg";
 import dominicHeadshot from "../images/dominic_headshot.jpg";
+import aleahHeadshot from "../images/aleah_headshot.jpg";
 
 const teamMembers = [
   {
