@@ -23,10 +23,10 @@ const teamMembers = [
   },
   {
     name: "Aleah Anderson",
-    title: "IT Strategy Intern",
-    description: "School",
-    img: "https://source.unsplash.com/300x300/?portrait,woman",
-    linkedin: "https://linkedin.com/in/nora-hazel"
+    title: "IT Strategy and Performance Management Intern",
+    description: "Senior at the University of Minnesota pursuing a B.S.B in International Business and Management Information Systems",
+    img: aleahHeadshot,
+    linkedin: "https://www.linkedin.com/in/aleah-anderson/"
   },
   {
     name: "Dominic Debo",
