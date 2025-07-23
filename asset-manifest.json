@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/3m-innovation/static/css/main.6ab752ea.css",
-    "main.js": "/3m-innovation/static/js/main.ecbd44de.js",
+    "main.js": "/3m-innovation/static/js/main.842d89a5.js",
     "static/js/453.591a4a2d.chunk.js": "/3m-innovation/static/js/453.591a4a2d.chunk.js",
     "static/media/dominic_headshot.jpg": "/3m-innovation/static/media/dominic_headshot.46593e67c297899543de.jpg",
+    "static/media/aleah_headshot.jpg": "/3m-innovation/static/media/aleah_headshot.b8a64fb016683f3f741f.jpg",
     "static/media/breanna_headshot.jpg": "/3m-innovation/static/media/breanna_headshot.ae648dd41d1cf7424dde.jpg",
     "static/media/fa-solid-900.ttf": "/3m-innovation/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/fa-brands-400.ttf": "/3m-innovation/static/media/fa-brands-400.1815e00441357e01619e.ttf",
@@ -15,11 +16,11 @@
     "static/media/fa-v4compatibility.woff2": "/3m-innovation/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/3m-innovation/index.html",
     "main.6ab752ea.css.map": "/3m-innovation/static/css/main.6ab752ea.css.map",
-    "main.ecbd44de.js.map": "/3m-innovation/static/js/main.ecbd44de.js.map",
+    "main.842d89a5.js.map": "/3m-innovation/static/js/main.842d89a5.js.map",
     "453.591a4a2d.chunk.js.map": "/3m-innovation/static/js/453.591a4a2d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6ab752ea.css",
-    "static/js/main.ecbd44de.js"
+    "static/js/main.842d89a5.js"
   ]
 }
