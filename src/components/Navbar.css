@@ -67,11 +67,11 @@
 }
 
 .navbar-links a:hover {
-  color: red;
+  color: #F11523;
 }
 
 .navbar-links .active {
-  color: red;
+  color: #F11523;
   font-weight: 600;
 }
 
