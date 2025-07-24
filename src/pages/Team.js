@@ -6,14 +6,15 @@ import { FaLinkedin } from "react-icons/fa"; // npm install react-icons
 import breannaHeadshot from "../images/breanna_headshot.jpg";
 import dominicHeadshot from "../images/dominic_headshot.jpg";
 import aleahHeadshot from "../images/aleah_headshot.jpg";
+import martinHeadshot from "../images/martin_headshot.JPG";
 
 const teamMembers = [
   {
     name: "Martin Grinnell",
-    title: "Finance Intern",
-    description: "School",
-    img: "https://source.unsplash.com/300x300/?portrait,woman",
-    linkedin: "https://linkedin.com/in/ryan-samuel"
+    title: "Finance-FX Risk Management Intern",
+    description: "Senior at the University of Michigan Pursuing a B.S.B in Business Administration & Minor in Entrepreneurship",
+    img: martinHeadshot,
+    linkedin: "https://www.linkedin.com/in/martin-grinnell-0954351ba"
   },
   {
     name: "Breanna Ranglall",
@@ -25,7 +26,7 @@ const teamMembers = [
   {
     name: "Aleah Anderson",
     title: "IT Strategy and Performance Management Intern",
-    description: "Senior at the University of Minnesota pursuing a B.S.B in International Business and Management Information Systems",
+    description: "Senior at the University of Minnesota pursuing a B.S.B in International Business & Management Information Systems",
     img: aleahHeadshot,
     linkedin: "https://www.linkedin.com/in/aleah-anderson/"
   },
