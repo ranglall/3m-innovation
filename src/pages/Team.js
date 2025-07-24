@@ -7,6 +7,7 @@ import breannaHeadshot from "../images/breanna_headshot.jpg";
 import dominicHeadshot from "../images/dominic_headshot.jpg";
 import aleahHeadshot from "../images/aleah_headshot.jpg";
 import martinHeadshot from "../images/martin_headshot.JPG";
+import oliviaHeadshot from "../images/olivia_headshot.jpeg";
 
 const teamMembers = [
   {
@@ -39,10 +40,10 @@ const teamMembers = [
   },
   {
     name: "Olivia Hanson",
-    title: "CBG Marketing Intern",
-    description: "School",
-    img: "https://source.unsplash.com/300x300/?portrait,woman",
-    linkedin: "https://linkedin.com/in/sophie-carter"
+    title: "Shopper Marketing Intern",
+    description: "Senior at Miami University pursuing a B.S.B in Marketing",
+    img: oliviaHeadshot,
+    linkedin: "https://www.linkedin.com/in/olivia-hanson-/"
   }
 ];
 
