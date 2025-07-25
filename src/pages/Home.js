@@ -1,5 +1,7 @@
 import React from 'react';
 import './Home.css';
+import AutoGuardPackage from "../images/AutoGuardPackage.png";
+
 
 const Home = () => {
   return (
@@ -10,7 +12,7 @@ const Home = () => {
         <p className="description">
                   Autoguard delivers next-generation engine protection with filters that are replaceable, customizable, and refillable. Designed for performance and flexibility, our filters help optimize airflow and engine efficiency while giving drivers more control over maintenance. Built to meet the needs of modern vehicles, Autoguard keeps your engine protected—your way.
 </p>
-           <button className="pricing-button">VIEW PRICING</button>
+           <button className="pricing-button">BUY FOR $19.99</button>
 
         
         <div className="stats-section">
@@ -42,15 +44,13 @@ const Home = () => {
         </div>
         
         <div className="footer-text">
-          Android's tools to build an agile Project Explore Servers to launch a new project to create a new development of the world. This project has been built along the same road as our company's first Astro® Aground Up & Out business LPS
-        </div>
+          Uses Filtrete Refillable Air Filter Technology        </div>
       </div>
       
       <div className="image-right">
-        {/* Replace with your actual image */}
-        <div className="image-placeholder">Image Placeholder</div>
+          <img src={AutoGuardPackage} alt="Descriptive Alt Text" />
+        </div>
       </div>
-    </div>
   );
 };
 

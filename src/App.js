@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import AirQuality from './pages/AirQuality';
 import OurStory from './pages/OurStory';
 import Team from './pages/Team';
-import Contact from './pages/Contact'; // ✅ NEW
+import Contact from './pages/Contact'; 
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <Route path="/air-quality" element={<AirQuality />} />
           <Route path="/our-story" element={<OurStory />} />
           <Route path="/team" element={<Team />} />
-          <Route path="/contact" element={<Contact />} /> {/* ✅ NEW */}
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>

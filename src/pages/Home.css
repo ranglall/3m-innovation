@@ -11,26 +11,13 @@
   padding-right: 2rem;
 }
 
-.image-right {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.image-placeholder {
-  width: 100%;
-  height: 600px;
-  background-color: #f0f0f0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #666;
-  border-radius: 8px;
+.image-right img {
+  width: 450px; /* or adjust to a size that fits your design */
+  height: auto;
 }
 
 .tag {
-  color: #4a6bff;
+  color: #F11523;
   font-weight: bold;
   margin-bottom: 1rem;
   font-size: 0.9rem;
@@ -78,7 +65,7 @@ h1 {
 .stat-number {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #4a6bff;
+  color: #F11523;
   margin-bottom: 0.5rem;
 }
 
