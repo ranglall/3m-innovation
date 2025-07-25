@@ -50,7 +50,7 @@ h1 {
 }
 
 .pricing-button {
-  background-color: #4a6bff;
+  background-color: #F11523;
   color: white;
   border: none;
   padding: 0.8rem 1.5rem;
@@ -62,7 +62,7 @@ h1 {
 }
 
 .pricing-button:hover {
-  background-color: #3a5bef;
+  background-color: #F11523;
 }
 
 .stats-section {
