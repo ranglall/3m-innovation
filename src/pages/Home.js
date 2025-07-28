@@ -10,9 +10,9 @@ const Home = () => {
         <div className="tag">NEW | Refillable Car Air Filter</div>
         <h1>AutoGuard</h1>
         <p className="description">
-                  Autoguard delivers next-generation engine protection with filters that are replaceable, customizable, and refillable. Designed for performance and flexibility, our filters help optimize airflow and engine efficiency while giving drivers more control over maintenance. Built to meet the needs of modern vehicles, Autoguard keeps your engine protected—your way.
+                  Autoguard delivers next-generation engine protection with filters that are replaceable, customizable, and refillable. Designed for performance and flexibility, our filters help optimize airflow and engine efficiency while giving drivers more control over maintenance. Built to meet the needs of modern vehicles, Autoguard keeps your engine protected, your way.
 </p>
-           <button className="pricing-button">BUY FOR $19.99</button>
+           <button className="pricing-button">VIEW PRICE</button>
 
         
         <div className="stats-section">

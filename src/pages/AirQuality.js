@@ -205,8 +205,8 @@ const AirQuality = () => {
                   style: {
                     fontSize: "34px",
                     fontWeight: "700",
-                    fill: "#ffffff",
-                    background: "rgba(0,0,0,0.8)",
+                    fill: "#272525ff", 
+                    background: "rgba(255, 255, 255, 0.8)",
                     padding: "8px 14px",
                     borderRadius: "10px"
                   }
@@ -248,7 +248,6 @@ const AirQuality = () => {
               </span>
             )}
           </p>
-          <p>US AQI: {pollutionData.hourly.us_aqi?.[0] ?? "N/A"}</p>
           <p>🔋 Filter Usage: {filterUsage}%</p>
         </div>
       )}
@@ -260,8 +259,8 @@ const AirQuality = () => {
           <a
             href={
               filter === "MPR 1550"
-                ? "https://www.amazon.com/s?k=MPR+1550+filter"
-                : "https://www.amazon.com/s?k=MPR+1000+filter"
+                ? "https://www.amazon.com/Filtrete-Refillable-Reusable-Honeywell-Allergen/dp/B0DYQ4XZX7/ref=sr_1_2?crid=5KW1RA1C0GGY&dib=eyJ2IjoiMSJ9.nGcYuvQ-zxfY6qQJPdLu9MOumopqU3kqP1HV9HPWoorcP587Oc74EQn5J8VJdybsqHgkISZjdE3bXWJdjsCfp-2sdGJug-yys0w2DBFWrzh6K61GmnRPXefGopi3A76IFFa8ufYrlsODnMTqbAJgJi16CZNzwMfXQmnJWvFLGwlr6IInbEFKDfCPR5zqzoqjCnM4nFP8xnMmIH3XXQ8NiH-ktywpr84cEB7et40Zr3qSCUgrTxbzZvGrmuAbMqkUG6SD7W6d6bhXm54wm-RPvgi3kolIznmyp_dEw4S05Qo.yf40U-IzMRqEfvz3F355TiUT-bArZe9-MipOg9ZPnBM&dib_tag=se&keywords=filtrete%2Brefillable%2Bair%2Bfilter&qid=1753714596&sprefix=filtrete%2Brefilla%2Caps%2C204&sr=8-2&th=1"
+                : "https://www.amazon.com/Filtrete-Refillable-Reusable-Honeywell-Allergen/dp/B0DYQ4RWW6/ref=sr_1_2?crid=5KW1RA1C0GGY&dib=eyJ2IjoiMSJ9.nGcYuvQ-zxfY6qQJPdLu9MOumopqU3kqP1HV9HPWoorcP587Oc74EQn5J8VJdybsqHgkISZjdE3bXWJdjsCfp-2sdGJug-yys0w2DBFWrzh6K61GmnRPXefGopi3A76IFFa8ufYrlsODnMTqbAJgJi16CZNzwMfXQmnJWvFLGwlr6IInbEFKDfCPR5zqzoqjCnM4nFP8xnMmIH3XXQ8NiH-ktywpr84cEB7et40Zr3qSCUgrTxbzZvGrmuAbMqkUG6SD7W6d6bhXm54wm-RPvgi3kolIznmyp_dEw4S05Qo.yf40U-IzMRqEfvz3F355TiUT-bArZe9-MipOg9ZPnBM&dib_tag=se&keywords=filtrete%2Brefillable%2Bair%2Bfilter&qid=1753714596&sprefix=filtrete%2Brefilla%2Caps%2C204&sr=8-2&th=1https://www.amazon.com/Filtrete-Refillable-Reusable-Honeywell-Allergen/dp/B0DYQ4RWW6/ref=sr_1_2?crid=5KW1RA1C0GGY&dib=eyJ2IjoiMSJ9.nGcYuvQ-zxfY6qQJPdLu9MOumopqU3kqP1HV9HPWoorcP587Oc74EQn5J8VJdybsqHgkISZjdE3bXWJdjsCfp-2sdGJug-yys0w2DBFWrzh6K61GmnRPXefGopi3A76IFFa8ufYrlsODnMTqbAJgJi16CZNzwMfXQmnJWvFLGwlr6IInbEFKDfCPR5zqzoqjCnM4nFP8xnMmIH3XXQ8NiH-ktywpr84cEB7et40Zr3qSCUgrTxbzZvGrmuAbMqkUG6SD7W6d6bhXm54wm-RPvgi3kolIznmyp_dEw4S05Qo.yf40U-IzMRqEfvz3F355TiUT-bArZe9-MipOg9ZPnBM&dib_tag=se&keywords=filtrete%2Brefillable%2Bair%2Bfilter&qid=1753714596&sprefix=filtrete%2Brefilla%2Caps%2C204&sr=8-2&th=1"
             }
             target="_blank"
             rel="noopener noreferrer"
